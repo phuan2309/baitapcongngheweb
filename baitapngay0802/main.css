@@ -1,0 +1,35 @@
+#wrapper {
+    max-width: 1089px;
+    margin: 0px auto;
+    height: 800px;
+    background-color: rgb(240, 106, 229);
+}
+
+#header {
+    height: 150px;
+   
+
+}
+
+#content {
+    height: 500px;
+    display: flex;
+}
+
+#leftside {
+    width: 30%;
+}
+
+#centerside {
+    width: 52%;
+    background-color: rgb(45, 230, 137);
+}
+
+#rightside {
+    width: 18%;
+    background-color: rgba(240, 48, 105, 0.897);
+}
+
+#footer {
+    height: 130px;
+}
