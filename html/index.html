@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li>Home</li>
+                <li>Service
+                    <ul class="submenu">
+                        <li>Phone</li>
+                        <li>Internet</li>
+                        <li>Tivi</li>
+                    </ul>
+                </li>
+                <li>Contact</li>
+                <li>About</li>
+                <li>Help</li>
+            </ul>
+            <span>
+                <form action="dangky.php" id="formEmail">
+                    <label for="lblEmail">Email: </label>
+                    <input type="email" name="txtEmail" id="txtEmail" required placeholder="Your Email: ">
+                    <input type="submit" value="GO" id="submit">
+                </form>
+            </span>
+        </nav>
+        <header>
+            <h1 style="text-align: center;">GAME SHOW</h1>
+        </header>
+        <div class="content">
+            <aside>
+                <article>
+                    <h1>HOAT DONG 1</h1>
+                    <img src="../img/h1.PNG" alt="">
+                </article>
+                <article>
+                    <h1>
+                        HOAT DONG 2
+                    </h1>
+                    <img src="../img/h2.PNG" alt="">
+                </article>
+                <article>
+                    <h1>
+                        HOAT DONG 2
+                    </h1>
+                    <img src="../img/h3.PNG" alt="">
+                </article>
+            </aside>
+            <section>
+                <article>
+                    <form action="dangky.php" method="get">
+                        <fieldset>
+                            <legend>Thông tin đăng ký</legend>
+                            <label for="lblHoTen">Họ tên: </label>
+                            <input type="text" name="txtHoTen" id="txtHoTen" required placeholder="Đặng Ngọc Phú"> <br> <br>
+                            <label for="lblNgaySinh">Ngày sinh: </label>
+                            <input type="date" name="txtDate" id="txtDate" required placeholder="Ngày sinh" pattern="dd/mm/yyyy"> <br>
+                            <label for="lblGioitinh">Giới tính: </label> <br>
+                            <input type="radio" name="gioitinh" id="nam">Nam <br>
+                            <input type="radio" name="gioitinh" id="nu">Nữ <br><br>
+                            <label for="txtLogin">Tên đăng nhap: </label> <br>
+                            <input type="text" name="txtDangNhap" id="txtDangNhap" placeholder="Tên đăng nhập"> <br>
+                            <label for="psw">Mật khẩu: </label> <br>
+                            <input type="password" name="password" id="password" placeholder="Nhập mật khẩu"> <br> <br>
+                            <input type="submit" value="Đăng ký" id="btn-submit">
+                        </fieldset>
+                    </form>
+                </article>
+            </section>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+</html>
